@@ -2,7 +2,9 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - cython
   - numpy
   - matplotlib
   - cartopy
   - netcdf4
+  - gdal
